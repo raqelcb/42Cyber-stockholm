@@ -44,61 +44,46 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project will make you sort data on a stack, with a limited set of instructions, using the lowest possible number of actions. To succeed you’ll have to manipulate various types of algorithms and choose the one (of many) most appropriate solution for an optimized data sorting.
-`42-cursus`, `push_swap`
+En este proyecto desarrollarás un pequeño programa capaz de causar grandes estragos. Aunque la mayor virtud del ransomware es su capacidad para extenderse por redes de centenares de equipos, en este caso, tu programa solo afectará a una pequeña parte de tus archivos.
+`42-bootcamp-Cybersecurity`, `stockholm`
 <br>
-
-### Parts of the project
-
-* [X] **Rules:** xxxx
-* [X] **Checker:** xxxx
-
-<br>
-
 
 ### List of rules
-There are 2 stacks named a and b and the goal is to sort in ascending order numbers into stack a.
+Trabajarás en todo momento dentro de una máquina virtual. Crearás un programa llamado stockholm que cumpla con las siguientes especificaciones.
 
-- To start with:
-
-	- a contains a random number of either positive or negative numbers without any duplicates.
-	- is empty
-
-- To do this push_swap program has the following operations:
-
-	- sa : Estará desarrollado para la plataforma Linux o MacOS.
-• Solo actuará sobre una carpeta infection en el directorio HOME del usuario.
-• El programa actuará solo sobre los archivos con las extensiones que fueron afectadas por Wannacry.
-• Incluirás un archivo de no más de 50 líneas llamado README.md con las instruc- ciones de uso y, si fueran requeridas, para compilarlo.
-• En caso de lenguaje compilado, incluirás todo el código fuente del programa.
-• El programa renombrará todos los archivos de la carpeta mencionada añadiendo la
+- Estará desarrollado para la plataforma Linux o MacOS.
+- Solo actuará sobre una carpeta infection en el directorio HOME del usuario.
+- El programa actuará solo sobre los archivos con las extensiones que fueron afectadas por Wannacry.
+- Incluirás un archivo de no más de 50 líneas llamado README.md con las instruc- ciones de uso y, si fueran requeridas, para compilarlo.
+- En caso de lenguaje compilado, incluirás todo el código fuente del programa.
+- El programa renombrará todos los archivos de la carpeta mencionada añadiendo la
 extensión ".ft".
-• En caso de que ya tuvieran dicha extensión, no se renombrarán.
-• Los archivos serán cifrados con un algoritmo conocido de tu elección, que sea con- siderado seguro.
-• La clave con la que se cifren los archivos será de una longitud de al menos 16 caracteres.
-• El programa contará con la opción -help.o h"para mostrar la ayuda.
-• El programa contará con la opción -version.o v"para mostrar la versión del programa.
-• El programa contará con la opción -reverse.o r"seguida de la clave introducida como argumento para revertir la infección.
-• El programa mostrará cada archivo cifrado durante el proceso salvo que se indique la opción -silent.o s", en cuyo caso el programa no producirá ningún output.
-• El programa manejará los errores y no se detendrá inesperadamente en ningún caso.
+- En caso de que ya tuvieran dicha extensión, no se renombrarán.
+- Los archivos serán cifrados con un algoritmo conocido de tu elección, que sea con- siderado seguro.
+- La clave con la que se cifren los archivos será de una longitud de al menos 16 caracteres.
+- El programa contará con la opción -help.o h"para mostrar la ayuda.
+- El programa contará con la opción -version.o v"para mostrar la versión del programa.
+- El programa contará con la opción -reverse.o r"seguida de la clave introducida como argumento para revertir la infección.
+- El programa mostrará cada archivo cifrado durante el proceso salvo que se indique la opción -silent.o s", en cuyo caso el programa no producirá ningún output.
+- El programa manejará los errores y no se detendrá inesperadamente en ningún caso.
+
 
 <!-- INSTALLATION -->
 ## Usage
 
 To get a local copy up and running follow these simple steps.
 
-
 1. Clone the repo
    ```sh
-   git clone https://github.com/raqelcb/push_swap.git
+   git clone https://github.com/raqelcb/42Cyber-stockholm.git
    ```
-2. Run `make` (rules: `all, clean, fclean, re`)
+2. Run
    ```sh
    make
    ```
 3. Execute
-   ```c
-   ./push_swap 2 1 3 6 5 8
+   ```py
+  
    ```
 
 <br>
@@ -111,4 +96,4 @@ Distributed under the
 
 <br>
 
-[![rcuesta- 42Project Score](https://badge42.herokuapp.com/api/project/rcuesta-/push_swap)](https://github.com/rcuesta-/badge42)
+<!-- [![rcuesta- 42Project Score](https://badge42.herokuapp.com/api/project/rcuesta-/p)](https://github.com/rcuesta-/badge42) -->
